@@ -1,0 +1,60 @@
+$primary: #1d8ac1;
+$secondary: #fdbf5e;
+
+$dark: #1a2f3c;
+$light: #e1e6e9;
+
+// Sections utils
+
+.section-padding {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.section-padding-lg {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+// Footer
+
+#footer {
+    background-color: #4d4d4d;
+    color: white !important;
+}
+
+#footer a:hover {
+    color: #f2f2f2!important
+}
+
+#footer i {
+    margin-right: 8px
+}
+
+#footer .follow img,#red-footer .cc-icons img {
+    margin-right: 10px
+}
+
+#footer .fa-map-marker {
+    padding-left: 2px
+}
+
+#footer h6, #footer a {
+    color: #f2f2f2;
+}
+
+#footer .follow h6 {
+    margin-bottom: 1.5rem
+}
+
+#footer .image-opacity:hover {
+    opacity: .8
+}
+
+#footer .logo-brand {
+  max-height: 100px;
+  max-width: 100%;
+  width: auto !important;
+}
+
+@import './node_modules/bootstrap/scss/bootstrap.scss';
