@@ -5,8 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>COVID19 | Gobierno de Guatemala</title>
+    <link rel="icon" href="assets/favicon.ico"  type="image/icon type">
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-	<meta name="Gobierno de Guatemala | Red Ciudadana" content="Coronavirus.gob.gt" />
+	<meta name="Gobierno de Guatemala | " content="Coronavirus.gob.gt" />
     
     <!-- CSS -->
     <link rel="stylesheet" href="assets/main.css">
@@ -16,7 +17,6 @@
     <link href="css/solid.min.css" rel="stylesheet">
     <link href="css/solid.min.css" rel="stylesheet">
 
-    <link rel="shortcut icon" href="https://redciudadana.org/wp-content/uploads/2019/07/WEB_RED-08-1-150x150.png" /><link rel="apple-touch-icon-precomposed" href="https://redciudadana.org/wp-content/uploads/2019/07/WEB_RED-08-1-150x150.png" />
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-129113306-2"></script>
     <script>
@@ -44,16 +44,16 @@
                         Inicio
                     </a>
                     <a class="nav-item nav-link" href="disposiciones.html">
-                        Disposiciones del Gobierno
+                        Disposiciones de Gobierno
                     </a>
-                    <a class="nav-item nav-link" href="prevencion.html">
-                        Prevención
+                    <a class="nav-item nav-link" href="tablero.html">
+                        Tablero de alertas
+                    </a>
+                    <a class="nav-item nav-link" href="semaforo.html">
+                        Semáforo
                     </a>
                     <a class="nav-item nav-link" href="transparencia.html">
                         Transparencia
-                    </a>
-                    <a class="nav-item nav-link" href="datosabiertos.html">
-                        Datos Abiertos
                     </a>
                     <a class="nav-item nav-link" href="formularios.html">
                         Formularios
@@ -68,7 +68,7 @@
             <div class="row">
                 <div class="col-12">
                     <h1>
-                        #QuédateEnCasa 
+                        #GuatemalaNoseDetiene 
                     </h1>
                     <h3 class="mb-4">
                         Situación del COVID-19 en Guatemala
@@ -82,16 +82,19 @@
             <div class="container text-center section-padding-lg">
                 <div class="row">
                     <div class="col-12">
-                
-<div class="infogram-embed" data-id="_/t4ic6VQhhbbmsWxR0c3h" data-type="interactive" data-title="MSPAS-COVID-19 Mayo 13"></div><script>!function(e,i,n,s){var t="InfogramEmbeds",d=e.getElementsByTagName("script")[0];if(window[t]&&window[t].initialized)window[t].process&&window[t].process();else if(!e.getElementById(n)){var o=e.createElement("script");o.async=1,o.id=n,o.src="https://e.infogram.com/js/dist/embed-loader-min.js",d.parentNode.insertBefore(o,d)}}(document,0,"infogram-async");</script>
-
+                        <img
+                            src="assets/definicion-alertas.png"
+                            alt="Infograma de tipos de alertas"
+                            class="w-100 max-w-800px"
+                        >
+                    </div>
                 </div>
             </div>
         </section>
 
 
         <!-- Medidas de Prevención -->
-        <section class="w-100 bg-light">
+        <section class="w-100 bg-white">
             <div class="container text-center section-padding-lg">
                 <div class="row">
                     <div class="col-12">
@@ -146,6 +149,46 @@
                 </div>
             </div>
         </section>
+
+        <!-- Canal de Gobierno -->
+        <section class="w-100 bg-light">
+            <div class="container text-center section-padding-lg">
+                <div class="row">
+                    <div class="col-12">
+                        <h1 class="mb-5"> Disposiciones de Gobierno </h1>
+                        <script src="https://player.twitch.tv/js/embed/v1.js"></script>
+                        <div class="w-100" id="twitch-player"></div>
+                        <script type="text/javascript">
+                            var options = {
+                                height: 500,
+                                channel: "gobiernodeguatemala",
+                                // only needed if your site is also embedded on embed.example.com and othersite.example.com 
+                                // parent: ["embed.example.com", "othersite.example.com"]
+                            };
+                            var player = new Twitch.Player("twitch-player", options);
+                            if (!player.getMuted()) {
+                                player.setMuted(true);
+                            }
+                            console.log(Twitch.Player.READY);
+                            player.addEventListener(Twitch.Player.READY, function() {
+                                player.pause();
+                            });
+                        </script>
+                        <!-- <iframe
+                            src="https://player.twitch.tv/?channel=gobiernodeguatemala&parent=covid19.gob.gt&volume=0.5&!muted"
+                            crossorigin="anonymous"
+                            frameborder="0" class="w-100" height="500">
+                        </iframe> -->
+                        <style>
+                            #twitch-player iframe {
+                                width: 100%;
+                            }
+                        </style>
+                    </div>
+                </div>
+            </div>
+        </section>
+
         <!-- Sintomás -->
         <section class="container text-center section-padding-lg">
             <div class="row justify-content-center">
@@ -325,81 +368,7 @@
                 </div>
             </div>
         </section>
-    </main>    
-    <!-- Footer -->
-    <footer id="footer">
-        <div class="container first py-4">
-            <!-- General info -->
-            <div class="row">
-            <!-- ¿Te gusta lo que hacemos? -->
-            <div class="col-12 col-sm-6 col-md-4">
-                <h6>¿Te gusta lo que hacemos?</h6>
-                <ul class="list-unstyled">
-                <li>
-                    <a href="http://donacion.redciudadana.org/" target="_blank" rel="noopener">
-                    <i class="fas fa-heart"></i>Donaciones
-                    </a>
-                </li>
-                <li>
-                    <a href="http://voluntarios.redciudadana.org/" target="_blank" rel="noopener">
-                    <i class="fas fa-users"></i>Voluntariado
-                    </a>
-                </li>
-                </ul>
-            </div>
-            <!-- Contáctanos -->
-            <div class="col-12 col-sm-6 col-md-4 order-md-3">
-                <h6>Contáctanos:</h6>
-                <ul class="list-unstyled">
-                <li>
-                    <a href="mailto:info@redciudadana.org.gt" target="_blank" rel="noopener">
-                    <i class="fas fa-envelope"></i>info@redciudadana.org.gt
-                    </a>
-                </li>
-                <li>
-                    <i class="fas fa-map-marker-alt"></i>Guatemala, Guatemala
-                </li>
-                </ul>
-            </div>
-            <!-- Social follow -->
-            <div class="col-12 follow col-md-4">
-                <h6>Síguenos en:</h6>
-                <div class="d-flex">
-                <a href="https://www.facebook.com/Redciudadanagt/" target="_blank" rel="noopener" class="image-opacity">
-                    <img src="mi-guatemala/img/icon-fb-white.png" alt="Facebook">
-                </a>
-                <a href="https://twitter.com/RedxGuate" target="_blank" rel="noopener" class="image-opacity">
-                    <img src="mi-guatemala/img/icon-tw-white.png" alt="Twitter">
-                </a>
-                <a href="https://www.instagram.com/redxguate/" target="_blank" rel="noopener" class="image-opacity">
-                    <img src="mi-guatemala/img/icon-in-white.png" alt="Instragram">
-                </a>
-                </div>
-            </div>
-            </div>
-        </div>
-    </footer>
-    <div id="red-footer">
-        <div class="container">
-            <div class="row">
-            <!-- Red Ciudadana -->
-            <div class="col-12 col-md-8 d-flex">
-                <p class="my-auto">Un proyecto en colaboración de:</p>
-                    <a href="http://redciudadana.org/" target="_blank" rel="noopener">
-                        <img src="mi-guatemala/img/Logofooter.png" alt="Logo de Red Ciudanana" class="logo-rc m-auto mt-md-3" height="100" width="auto">
-                    </a>
-            </div>
-            <div class="col-12 col-md-4 d-flex my-4 cc-icons text-left text-md-right">
-                <a href="https://creativecommons.org/licenses/by-sa/3.0/gt/" target="_blank" rel="noopener"
-                class="ml-0 ml-md-auto">
-                    <img src="mi-guatemala/img/icon-cc-cc.png" alt="Creative Commons">
-                    <img src="mi-guatemala/img/icon-cc-by.png" alt="Creative Commons - Atribución">
-                    <img src="mi-guatemala/img/icon-cc-sa.png" alt="Creative Commons - Compartir Igual">
-                </a>
-            </div>
-            </div>
-        </div>
-    </div><br>
+    </main>
 
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>

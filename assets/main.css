@@ -9926,3 +9926,19 @@ h3 {
 }
 
 /*# sourceMappingURL=main.css.map */
+
+.text-maxima {
+  color: #e2575a;
+}
+
+.text-alta {
+  color: #ee7421;
+}
+
+.text-moderada {
+  color: #ffda67;
+}
+
+.max-w-800px {
+  max-width: 800px;
+}
