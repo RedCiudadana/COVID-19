@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="es-GT">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>COVID19 | Gobierno de Guatemala</title>
+    <link rel="icon" href="assets/favicon.ico"  type="image/icon type">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="Gobierno de Guatemala | " content="Coronavirus.gob.gt" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/main.css">
+
+    <!-- Font Awesome -->
+    <link href="css/fontawesome.css" rel="stylesheet">
+    <link href="css/solid.min.css" rel="stylesheet">
+    <link href="css/solid.min.css" rel="stylesheet">
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-129113306-2"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-129113306-2');
+    </script>
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="./assets/logos/LOGO_GOBIERNO.png" alt="Bandera de Guatemala" height="55px" width="auto">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ml-auto">
+                    <a class="nav-item nav-link" href="index.html">
+                        Inicio
+                    </a>
+                    <a class="nav-item nav-link" href="disposiciones.html">
+                        Disposiciones de Gobierno
+                    </a>
+                    <a class="nav-item nav-link" href="tablero.html">
+                        Tablero de alertas
+                    </a>
+                    <a class="nav-item nav-link" href="semaforo.html">
+                        Semáforo
+                    </a>
+                    <a class="nav-item nav-link" href="transparencia.html">
+                        Transparencia
+                    </a>
+                    <a class="nav-item nav-link" href="formularios.html">
+                        Formularios
+                    </a>
+                    <a class="nav-item nav-link" href="tableroMSPAS.html">
+                        Tablero de MSPAS
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Banner -->
+        <section class="container-fluid text-white text-center section-padding"
+            style="background-image: url('assets/covid-slider.jpg'); background-position: center; background-repeat: no-repeat; background-size: cover;">
+            <div class="row">
+                <div class="col-12">
+                    <h3>
+                        #GuatemalaNoSeDetiene 
+                    </h3>
+                    <h4 class="mb-4">
+                        Situación del COVID-19 en Guatemala
+                    </h4>
+                </div>
+            </div>
+        </section>
+
+        <!-- Nivel de alerta  -->
+        <section class="w-100 bg-light">
+            <div class="container text-center section-padding-lg">
+                <h1 class="mb-5">
+                    Nivel de alerta por región (Actualización 09/08/2020)
+                </h1>
+                <img
+                    src="datos/semaforo/9agosto/mapa-24jul-al-06ago-semaforo.jpg"
+                    alt="Mapa nivel de alerta regional"
+                    class="w-100 img-responsive max-w-800px mb-5"
+                >
+                <br>
+                <a target="_blank"
+                    href="datos/semaforo/9agosto/Tablero002_24_6agosto final  final gae.xlsx"
+                    button class="btn btn-lg btn-dark mb-2">
+                    Descargar lista de alerta por región XLSX
+                </a>
+
+                <a target="_blank"
+                    href="datos/semaforo/9agosto/Tablero002_24_6agosto final  final gae.pdf"
+                    button class="btn btn-lg btn-dark mb-2">
+                    Descargar lista de alerta por región PDF
+                </a>
+            </div>
+        </section>
+
+        <!-- Medidas de Prevención -->
+        <section class="w-100 bg-light">
+            <div class="container text-center section-padding-lg">
+                <div class="row">
+                    <div class="col-12">
+                        <h1 class="mb-5">
+                            Medidas de Prevención
+                        </h1>
+                    </div>
+                    <div class="col col-md-4 col-lg-3">
+                        <img src="./assets/icons/prevencion/icon-1.png" height="100" width="auto" class="mb-4" alt="">
+                        <p class="font-weight-bolder">
+                            Lava tus manos con agua y con jabón
+                        </p>
+                    </div>
+                    <div class="col col-md-4 col-lg-3">
+                        <img src="./assets/icons/prevencion/icon-2.png" height="100" width="auto" class="mb-4" alt="">
+                        <p class="font-weight-bolder">
+                            Consulta y comparte información de fuentes confiables
+                        </p>
+                    </div>
+                    <div class="col col-md-4 col-lg-3">
+                        <img src="./assets/icons/prevencion/icon-3.png" height="100" width="auto" class="mb-4" alt="">
+                        <p class="font-weight-bolder">
+                            Tose o estornuda en la parte interna de tu codo
+                        </p>
+                    </div>
+                    <div class="col col-md-4 col-lg-3">
+                        <img src="./assets/icons/prevencion/icon-4.png" height="100" width="auto" class="mb-4" alt="">
+                        <p class="font-weight-bolder">
+                            Si tienes síntomas, ve al médico
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Sintomás -->
+        <section class="container text-center section-padding-lg">
+            <div class="row justify-content-center">
+                <div class="col-12">
+                    <h1 class="mb-5">
+                        ¿Cuándo debo acudir a recibir atención médica?
+                    </h1>
+                </div>
+            </div>
+            <div class="row justify-content-center my-4">
+                <div class="col col-md-4 col-lg-3">
+                    <img src="./assets/icons/sintomas/icon-1.png" height="100" width="auto" class="mb-4" alt="">
+                    <p class="font-weight-bolder">
+                        Fiebre
+                    </p>
+                </div>
+                <div class="col col-md-4 col-lg-3">
+                    <img src="./assets/icons/sintomas/icon-2.png" height="100" width="auto" class="mb-4" alt="">
+                    <p class="font-weight-bolder">
+                        Dolor de Cabeza
+                    </p>
+                </div>
+                <div class="col col-md-4 col-lg-3">
+                    <img src="./assets/icons/sintomas/icon-3.png" height="100" width="auto" class="mb-4" alt="">
+                    <p class="font-weight-bolder">
+                        Tos, estornudos
+                    </p>
+                </div>
+            </div>
+            <div class="row justify-content-center my-4">
+                <div class="col col-md-4 col-lg-3">
+                    <img src="./assets/icons/sintomas/icon-4.png" height="100" width="auto" class="mb-4" alt="">
+                    <p class="font-weight-bolder">
+                        Dificultad para respirar
+                    </p>
+                </div>
+                <div class="col col-md-4 col-lg-3">
+                    <img src="./assets/icons/sintomas/icon-5.png" height="100" width="auto" class="mb-4" alt="">
+                    <p class="font-weight-bolder">
+                        Malestar General
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contacto -->
+        <section class="w-100 bg-secondary">
+            <div class="container text-center section-padding-lg">
+                <div class="row">
+                    <div class="col-12">
+                        <h5 class="mb-4">
+                            Llama para más información. Serás atendido por personal capacitado.
+                        </h5>
+                        <button class="btn btn-lg btn-dark">
+                            Llama al 1517
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Comunicación -->
+        <section class="container section-padding-lg text-center">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="mb-5">
+                        Comunicación
+                    </h1>
+                </div>
+                <div class="col-12 col-md-6 mb-4">
+                    <iframe src="https://www.youtube.com/embed/rEOK336zTcI" frameborder="0" allowfullscreen
+                        class="mb-3"></iframe>
+                    <br>
+                    <a target="_blank" href="https://www.youtube.com/channel/UCh4GjKBcqxOsL_Bt8gCCSLg"
+                        class="btn btn-dark">
+                        Ir a canal
+                    </a>
+                </div>
+                <div class="col-12 col-md-6 mb-4">
+                    <iframe src="https://www.youtube.com/embed/Z-JccnNCYQI" frameborder="0" allowfullscreen
+                        class="mb-3"></iframe>
+                    <br>
+                    <a target="_blank" href="https://www.youtube.com/channel/UC-gHPkmUmz2M6Qe3cJRIaNQ"
+                        class="btn btn-dark">
+                        Ir a canal
+                    </a>
+                </div>
+                <div class="col-12">
+                    <embed
+                        src="https://drive.google.com/viewerng/viewer?embedded=true&url=http://www.mineduc.gob.gt/PrevencionCoronavirus/documents/Poster-CORONAVIRUS.pdf"
+                        style="height: 80vh;"
+                        class="mb-3 w-100"
+                    >
+                    <br>
+                    </embed>
+                </div>
+            </div>
+        </section>
+        <!-- Preguntas frecuentes -->
+        <section class="w-100 bg-secondary">
+            <div class="container text-center section-padding-lg">
+                <div class="row">
+                    <div class="col-12">
+                        <h5 class="mb-4">
+                            Preguntas y respuestas sobre la enfermedad por coronavirus (COVID-19)
+                        </h5>
+                        <a href="https://www.who.int/es/emergencies/diseases/novel-coronavirus-2019/advice-for-public/q-a-coronaviruses"
+                            target="_blank" class="btn btn-lg btn-dark">
+                            MÁS INFORMACIÓN
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Sitios de interés -->
+        <section class="container section-padding-lg text-center">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="mb-5">
+                        Sitios de interés
+                    </h1>
+                </div>
+                <div class="col-12 col-md-6 mb-4">
+                    <h2>
+                        Nacionales
+                    </h2>
+                    <ul class="list-unstyled">
+                        <li>
+                            <a class="font-weight-bold"
+                                href="https://www.mspas.gob.gt/index.php/noticias/covid-19/coronavirus-2019-ncov"
+                                target="_blank">
+                                Ministerio de Salud Pública y Asistencia Social
+                            </a>
+                        </li>
+                        <li>
+                            <a class="font-weight-bold" href="https://conred.gob.gt/site/7861" target="_blank">
+                                CONRED
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-12 col-md-6 mb-4">
+                    <h2>
+                        Internacionales
+                    </h2>
+                    <ul class="list-unstyled">
+                        <li>
+                            <a class="font-weight-bold"
+                                href="https://www.who.int/es/emergencies/diseases/novel-coronavirus-2019"
+                                target="_blank">
+                                Organización Mundial de la Salud
+                            </a>
+                        </li>
+                        <li>
+                            <a class="font-weight-bold"
+                                href="https://www.paho.org/en/topics/coronavirus-infections/coronavirus-disease-covid-19"
+                                target="_blank">
+                                Organización Panamericana de la Salud
+                            </a>
+                        </li>
+                        <li>
+                            <a class="font-weight-bold"
+                                href="https://bvsalud.org/vitrinas/es/post_vitrines/nuevo_coronavirus/">
+                                Biblioteca virtual
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+    <div id="red-footer">
+        <div class="fluid-container">
+            <div class="row">
+                <!-- Red Ciudadana -->
+                <div class="col-12 col-md-3 my-auto text-center text-md-right">
+                    <p class="my-auto">Un proyecto de:</p>
+                </div>
+                <div class="col-12 col-md-9">
+                    <a href="https://transparencia.gob.gt/" target="_blank" rel="noopener">
+                        <img src="mi-guatemala/img/gae.png" alt="Logo de GAE" class="logo-rc m-auto mt-md-3 w-100">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfobject/2.1.1/pdfobject.min.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function(){
+                PDFObject.embed("assets/TablerodeAlertas.pdf", "#pdf_view_1");
+                PDFObject.embed("assets/tableroinfografiìas.pdf", "#pdf_view_2");
+            });
+        </script>
+</body>
+
+</html>
